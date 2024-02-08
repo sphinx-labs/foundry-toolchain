@@ -1,6 +1,6 @@
-name: "foundry-toolchain"
-description: "Install Foundry"
-author: "Foundry"
+name: "sphinx-foundry-toolchain"
+description: "Install Sphinx Foundry Fork"
+author: "Foundry & Sphinx Labs"
 branding:
   color: "gray-dark"
   icon: "play-circle"
