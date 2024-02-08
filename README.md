@@ -20,7 +20,7 @@ jobs:
           submodules: recursive
 
       - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1
+        uses: sphinx-labs/foundry-toolchain@v1
 
       - name: Run tests
         run: forge test -vvv
@@ -53,7 +53,7 @@ the `cache` input to `false`, like this:
 
 ```yml
 - name: Install Foundry
-  uses: foundry-rs/foundry-toolchain@v1
+  uses: sphinx-labs/foundry-toolchain@v1
   with:
     cache: false
 ```
