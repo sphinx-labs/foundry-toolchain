@@ -1,7 +1,9 @@
 ## `foundry-toolchain` Action
 
-This GitHub Action installs [Foundry](https://github.com/foundry-rs/foundry), the blazing fast, portable and modular
+This GitHub Action installs Sphinx Labs fork of [Foundry](https://github.com/foundry-rs/foundry), the blazing fast, portable and modular
 toolkit for Ethereum application development.
+
+This fork implements several bug fixes which are necessary to use Foundry with [Sphinx](https://sphinx.dev).
 
 ### Example workflow
 
